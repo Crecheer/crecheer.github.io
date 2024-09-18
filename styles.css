@@ -209,3 +209,17 @@ body {
 .nobr {
   white-space: nowrap;
 }
+.image1 {
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+.size-600x400 {
+  width: 600px;
+  height: 400px;
+}
+.gallery-container {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
