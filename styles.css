@@ -1,0 +1,211 @@
+html {
+  background-color: black;
+}
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    background-color: black;
+}
+
+.title-container {
+    position: relative;
+    top: 100px;
+}
+
+.title1 {
+    text-align: center;
+    /*font-family: "Playpen Sans", cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 0px;
+
+    transition: -webkit-text-stroke-color 1s;
+
+    z-index: 1;
+
+
+}
+
+.title2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: -130px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
+    transition: all 1s ease-in-out;
+}
+
+.title3 {
+    text-align: center;
+    /*font-family: "Playpen Sans", cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 0px;
+
+    transition: -webkit-text-stroke-color 1s;
+
+    z-index: 1;
+}
+
+.discord-bot-container {
+  position: relative;
+  top: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.discord-bot-content {
+  /*
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;*/
+}
+
+.discord-bot-text {
+  width: 50%;
+  text-align: right;
+  position: relative;
+  top: 130px;
+}
+.discord-bot-image {
+  position: relative;
+  top: -100px;
+  right: -350px;
+}
+
+.article {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.articleProjects {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+footer {
+  position:fixed;
+  bottom:0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+}
+
+.menu button {
+  background-color: black;
+  border: none;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  width: 200%;
+  transition: display 1s ease-in-out;
+}
+
+.dropdown-options a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-options a:hover {
+  color: rgb(82, 80, 80);
+  font-size: 31px;
+}
+
+#defaultText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.friends-container a{
+  color: rgb(228, 168, 79);
+  text-decoration: underline;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.menu:hover .dropdown-options {
+  display: block;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center
+}
+
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.friendsPFP img {height: 1em;}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.nobr {
+  white-space: nowrap;
+}
