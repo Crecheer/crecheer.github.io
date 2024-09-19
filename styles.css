@@ -213,6 +213,7 @@ body {
   position: relative;
   top: 200px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .size-600x400 {
   width: 600px;
@@ -222,4 +223,8 @@ body {
   position: relative;
   top: 100px;
   text-align: center;
+}
+.image1 p {
+  position: relative;
+  margin-bottom: 30px;
 }
