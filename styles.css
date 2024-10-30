@@ -228,3 +228,7 @@ body {
   position: relative;
   margin-bottom: 30px;
 }
+.link {
+  color: rgb(204, 204, 182);
+  cursor: auto;
+}
