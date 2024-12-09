@@ -11,6 +11,14 @@ body {
     animation-name: fadeIn;
     animation-duration: 1.5s;
     background-color: black;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .title-container {
@@ -194,16 +202,6 @@ footer {
 
 .friendsPFP img {height: 1em;}
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 .nobr {
   white-space: nowrap;
