@@ -1,3 +1,5 @@
+ console.log("Typewriter script loaded")
+ 
  var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -40,8 +42,8 @@
     };
 
     window.onload = function() {
-        // Debuggin stuff because github is being stupid again
-        print("Onload");    
+        console.log("loading")
+        document.getElementsByClassName("body").style.opacity='1'
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
